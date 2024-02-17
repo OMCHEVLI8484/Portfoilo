@@ -1,0 +1,44 @@
+.profile {
+    margin: 15px auto;
+    display: block;
+    width: 150px;
+    border: 8px solid #353535;
+    border-radius: 50%;
+}
+a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 16px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.sidebar{
+
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    
+    background: #040b14;
+    overflow-y: auto;
+}
+
+.block{
+    width: 100%;
+    border-radius: 0%;
+    text-align: left;
+    background-color: transparent;
+    
+}
+
